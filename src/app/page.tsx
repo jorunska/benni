@@ -1,103 +1,181 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+    <main className="flex min-h-screen flex-col justify-between select-none">
+      {/* Navbar */}
+      <nav className="navbar max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
+        <div className="flex space-x-4 h-20 items-center max-sm:space-x-2">
+          <Link href="/" className="py-1 pr-32 uppercase font-bold">
+            <p>Benni.</p>
+          </Link>
+          <a href="/gallery" className="px-1 py-3 hover:text-gray-500">
+            Gallery
           </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+          <a href="/about-me" className="px-1 py-3 hover:text-gray-500">
+            About me
+          </a>
+          <a href="#contact" className="px-1 py-3 hover:text-gray-500">
+            Contact
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      </nav>
+
+      {/* ---------------- NEW SECTION ------------------ */}
+      {/* Header */}
+      <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+        <div className="w-3/5 max-md:w-full max-md:pb-16">
+          <h1>Hi, I&apos;m Benni.</h1>
+          <p className="text-2xl max-md:text-xl leading-normal my-5 lg:pr-25">
+            I am a photographer.
+          </p>
+          <div>
+            <a href="#contact">
+              <button className="text-white py-2 px-4 hover:bg-black my-5">
+                Contact me
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="w-3/5 max-md:w-full">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            alt="Artist synger på en scene"
+            src="/dagny-foto.jpg"
+            width="500"
+            height="0"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        </div>
+      </div>
+
+      {/* --------------- NEW SECTION ------------- */}
+      {/* Gallery */}
+      <div>
+        <div className="max-lg:px-8 lg:px-20 2xl:px-36 mt-26 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+          <h2>Gallery</h2>
+          <div className="grid grid-cols-3 gap-4 md:grid-cols-3 pt-18">
+            <div className="grid gap-4">
+              <div>
+                <Image
+                  className="h-auto max-w-full rounded-lg object-cover"
+                  src="/dagny-foto.jpg"
+                  alt="To naust som ligger ved vannkanten, med fjell i bakgrunn"
+                  width="500"
+                  height="0"
+                />
+              </div>
+              <div>
+                <Image
+                  className="h-auto max-w-full rounded-lg object-cover"
+                  src="/dagny-foto.jpg"
+                  alt="Bålpanne med fjell i bakgrunn"
+                  width="500"
+                  height="0"
+                />
+              </div>
+            </div>
+            <div className="grid gap-4">
+              <div>
+                <Image
+                  className="h-auto max-w-full rounded-lg object-cover"
+                  src="/dagny-foto.jpg"
+                  alt="Svane i sjøen"
+                  width="500"
+                  height="0"
+                />
+              </div>
+              <div>
+                <Image
+                  className="h-auto max-w-full rounded-lg object-cover"
+                  src="/dagny-foto.jpg"
+                  alt="Blomst med fjell og sjø i bakgrunn"
+                  width="500"
+                  height="0"
+                />
+              </div>
+            </div>
+            <div className="grid gap-4">
+              <div>
+                <Image
+                  className="h-auto max-w-full rounded-lg object-cover"
+                  src="/dagny-foto.jpg"
+                  alt="Svane i sjøen"
+                  width="500"
+                  height="0"
+                />
+              </div>
+              <div>
+                <Image
+                  className="h-auto max-w-full rounded-lg object-cover"
+                  src="/dagny-foto.jpg"
+                  alt="Blomst med fjell og sjø i bakgrunn"
+                  width="500"
+                  height="0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="text-center pt-12">
+          <a href="/gallery">
+            <button className="text-white py-2 px-4 hover:bg-black my-5">
+              See more
+            </button>
+          </a>
+        </div>
+      </div>
+
+      {/* ------------- NEW SECTION ----------- */}
+      {/* ABOUT */}
+      <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+        <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+            className="h-auto max-w-full rounded-lg object-cover"
+            src="/dagny-foto.jpg"
+            alt="Svane i sjøen"
+            width="400"
+            height="0"
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        </div>
+
+        <div className="w-3/5 max-md:w-full max-md:pb-16 content-center">
+          <h2>About me</h2>
+          <p className="pb-3">
+            Our passion for photography drives our commitment to capturing
+            life&apos;s most precious moments with unrivaled expertise and
+            attention to detail.
+          </p>
+          <p>
+            We blend art and technology to provide our clients with
+            unforgettable images that tell their unique stories.
+          </p>
+          <div className="pt-6">
+            <a href="/gallery">
+              <button className="text-white py-2 px-4 hover:bg-black my-5">
+                Read more
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+{/* -------------- NEW SECTION ---------------- */}
+{/* Contact */}
+      <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+        <div className="w-3/5 max-md:w-full max-md:pb-16">
+          <h2>Want to work together?</h2>
+        </div>
+
+        <div className="w-3/5 max-md:w-full max-md:pb-16">
+          <p>Got an interesting project you want together on? Contact me to discuss</p>
+          <div className="pt-8 font-bold"><a className="email" href="mailto">benni@contact.no</a></div>
+        </div>
+      </div>
+
+      <footer>
+
       </footer>
-    </div>
+    </main>
   );
 }
