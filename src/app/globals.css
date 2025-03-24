@@ -53,3 +53,7 @@ button {
 .email {
   font-size: 30px;
 }
+
+footer a {
+  border-bottom: 1px solid white;
+}

@@ -173,7 +173,16 @@ export default function Home() {
         </div>
       </div>
 
-      <footer>
+      <footer className="footer flex max-md:flex-col py-18 max-lg:px-8 lg:px-20 2xl:px-36 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32 mt-32 bg-black ">
+        <div className="w-3/5">
+          <h2>Benni.</h2>
+          <p>I am a photographer</p>
+        </div>
+        <div className="w-2/5 content-center">
+          <a>benni@contact.no</a>
+        </div>
+        <div className="w-2/5 content-center">
+        <a>Instagram</a></div>
 
       </footer>
     </main>
