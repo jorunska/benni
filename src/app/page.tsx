@@ -7,14 +7,14 @@ export default function Home() {
       {/* Navbar */}
       <nav className="navbar max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
         <div className="flex space-x-4 h-20 items-center max-sm:space-x-2">
-          <Link href="/" className="py-1 pr-32 uppercase font-bold">
+          <Link href="/" className="py-1 pr-32 uppercase font-bold logo">
             <p>Benni.</p>
           </Link>
           <a href="/gallery" className="px-1 py-3 hover:text-gray-500">
             Gallery
           </a>
           <a href="/about" className="px-1 py-3 hover:text-gray-500">
-            About me
+            About
           </a>
           <a href="#contact" className="px-1 py-3 hover:text-gray-500">
             Contact
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="grid gap-4">
               <div>
                 <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
+                  className="h-auto max-w-full object-cover"
                   src="/dagny-foto.jpg"
                   alt="To naust som ligger ved vannkanten, med fjell i bakgrunn"
                   width="500"
@@ -66,7 +66,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
+                  className="h-auto max-w-full object-cover"
                   src="/dagny-foto.jpg"
                   alt="Bålpanne med fjell i bakgrunn"
                   width="500"
@@ -77,7 +77,7 @@ export default function Home() {
             <div className="grid gap-4">
               <div>
                 <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
+                  className="h-auto max-w-full object-cover"
                   src="/dagny-foto.jpg"
                   alt="Svane i sjøen"
                   width="500"
@@ -86,7 +86,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
+                  className="h-auto max-w-full object-cover"
                   src="/dagny-foto.jpg"
                   alt="Blomst med fjell og sjø i bakgrunn"
                   width="500"
@@ -97,7 +97,7 @@ export default function Home() {
             <div className="grid gap-4">
               <div>
                 <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
+                  className="h-auto max-w-full object-cover"
                   src="/dagny-foto.jpg"
                   alt="Svane i sjøen"
                   width="500"
@@ -106,7 +106,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
+                  className="h-auto max-w-full object-cover"
                   src="/dagny-foto.jpg"
                   alt="Blomst med fjell og sjø i bakgrunn"
                   width="500"
@@ -130,7 +130,7 @@ export default function Home() {
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
-            className="h-auto max-w-full rounded-lg object-cover"
+            className="h-auto max-w-full object-cover"
             src="/dagny-foto.jpg"
             alt="Svane i sjøen"
             width="400"
