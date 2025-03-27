@@ -14,7 +14,7 @@ export default function Home() {
             Gallery
           </a>
           <a href="/about" className="px-1 py-3 hover:text-gray-500">
-            About
+            About me
           </a>
           <a href="#contact" className="px-1 py-3 hover:text-gray-500">
             Contact

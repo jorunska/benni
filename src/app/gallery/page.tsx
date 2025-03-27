@@ -7,7 +7,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="navbar max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
         <div className="flex space-x-4 h-20 items-center max-sm:space-x-2">
-          <Link href="/" className="py-1 pr-32 uppercase font-bold">
+          <Link href="/" className="py-1 pr-32 uppercase font-bold logo">
             <p>Benni.</p>
           </Link>
           <a href="/gallery" className="px-1 py-3 hover:text-gray-500">

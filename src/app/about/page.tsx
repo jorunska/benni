@@ -7,7 +7,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="navbar max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
         <div className="flex space-x-4 h-20 items-center max-sm:space-x-2">
-          <Link href="/" className="py-1 pr-32 uppercase font-bold">
+          <Link href="/" className="py-1 pr-32 uppercase font-bold logo">
             <p>Benni.</p>
           </Link>
           <a href="/gallery" className="px-1 py-3 hover:text-gray-500">
@@ -23,7 +23,7 @@ export default function Home() {
       </nav>
 
       {/* ------------- NEW SECTION ----------- */}
-      {/* ABOUT */}
+      {/* Header */}
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image

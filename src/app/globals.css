@@ -53,6 +53,11 @@ button {
   color: black;
 }
 
+button:hover {
+  background-color: #bcbcbc;
+  cursor: pointer;
+}
+
 .email {
   font-size: 30px;
 }
