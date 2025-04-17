@@ -53,12 +53,12 @@ export default function Home() {
       <div>
         <div className="max-lg:px-8 lg:px-20 2xl:px-36 mt-26 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
           <h2>Gallery</h2>
-          <div className="grid grid-cols-3 gap-4 md:grid-cols-3 pt-18">
-            <div className="grid gap-4">
+          <div className="grid grid-cols-3 md:grid-cols-3 gap-2 pt-18">
+            <div className="grid gap-2">
               <div>
                 <Image
-                  className="h-auto max-w-full object-cover"
-                  src="/dagny-foto.jpg"
+                  className="h-auto max-w-full object-cover object-center"
+                  src="/benedicte-2.webp"
                   alt="To naust som ligger ved vannkanten, med fjell i bakgrunn"
                   width="500"
                   height="0"
@@ -66,19 +66,19 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="h-auto max-w-full object-cover"
-                  src="/dagny-foto.jpg"
+                  className="h-auto max-w-full object-cover object-center"
+                  src="/benedicte-11.webp"
                   alt="Bålpanne med fjell i bakgrunn"
                   width="500"
                   height="0"
                 />
               </div>
             </div>
-            <div className="grid gap-4">
+            <div className="grid gap-2">
               <div>
                 <Image
-                  className="h-auto max-w-full object-cover"
-                  src="/dagny-foto.jpg"
+                  className="h-auto max-w-full object-cover object-center"
+                  src="/benedicte-23.webp"
                   alt="Svane i sjøen"
                   width="500"
                   height="0"
@@ -86,19 +86,19 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="h-auto max-w-full object-cover"
-                  src="/dagny-foto.jpg"
+                  className="h-auto max-w-full object-cover object-center"
+                  src="/benedicte-41.webp"
                   alt="Blomst med fjell og sjø i bakgrunn"
                   width="500"
                   height="0"
                 />
               </div>
             </div>
-            <div className="grid gap-4">
+            <div className="grid gap-2">
               <div>
                 <Image
-                  className="h-auto max-w-full object-cover"
-                  src="/dagny-foto.jpg"
+                  className="h-auto max-w-full object-cover object-center"
+                  src="/benedicte-17.webp"
                   alt="Svane i sjøen"
                   width="500"
                   height="0"
@@ -106,8 +106,8 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="h-auto max-w-full object-cover"
-                  src="/dagny-foto.jpg"
+                  className="h-auto max-w-full object-cover object-center"
+                  src="/benedicte-4.webp"
                   alt="Blomst med fjell og sjø i bakgrunn"
                   width="500"
                   height="0"
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
             className="h-auto max-w-full object-cover"
-            src="/dagny-foto.jpg"
+            src="/benedicte-5.webp"
             alt="Svane i sjøen"
             width="400"
             height="0"

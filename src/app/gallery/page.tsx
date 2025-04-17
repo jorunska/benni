@@ -26,7 +26,7 @@ export default function Home() {
       {/* Gallery */}
       <div>
         <div className="max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
-          <h2>Gallery</h2>
+          <h1>Gallery</h1>
           <p>More information about type of projects</p>
           <div className="grid grid-cols-3 gap-4 md:grid-cols-3 pt-18">
             <div className="grid gap-4">

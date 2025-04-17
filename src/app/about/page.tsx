@@ -36,6 +36,31 @@ export default function Home() {
         </div>
 
         <div className="w-3/5 max-md:w-full max-md:pb-16 content-center">
+          <h1>About me</h1>
+          <p className="pb-3">
+            Our passion for photography drives our commitment to capturing
+            life&apos;s most precious moments with unrivaled expertise and
+            attention to detail.
+          </p>
+          <p>
+            We blend art and technology to provide our clients with
+            unforgettable images that tell their unique stories.
+          </p>
+          <div className="pt-6">
+            <a href="#contact">
+              <button className="text-white py-2 px-4 hover:bg-black my-5">
+                Contact me
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+        {/* ------------- NEW SECTION ----------- */}
+      {/* Extra section */}
+      <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+
+        <div className="w-3/5 max-md:w-full max-md:pb-16 content-center">
           <h2>About me</h2>
           <p className="pb-3">
             Our passion for photography drives our commitment to capturing
@@ -49,12 +74,22 @@ export default function Home() {
           <div className="pt-6">
             <a href="/gallery">
               <button className="text-white py-2 px-4 hover:bg-black my-5">
-                Read more
+                See my work
               </button>
             </a>
           </div>
         </div>
+        <div className="w-2/5 max-md:w-full max-md:pb-16">
+          <Image
+            className="h-auto max-w-full rounded-lg object-cover"
+            src="/dagny-foto.jpg"
+            alt="Svane i sjøen"
+            width="400"
+            height="0"
+          />
+        </div>
       </div>
+
 
 
 {/* -------------- NEW SECTION ---------------- */}
