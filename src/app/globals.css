@@ -111,4 +111,8 @@ footer a {
   .about img {
     display: none;
   }
+  .footer div {
+    width: 100% !important;
+    padding: 2% 0;
+  }
 }

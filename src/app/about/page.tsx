@@ -25,7 +25,7 @@ export default function Home() {
       {/* ------------- NEW SECTION ----------- */}
       {/* Header */}
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
-        <div className="w-2/5 max-md:w-full max-md:pb-16">
+        <div className="w-2/5 max-md:w-full max-md:pb-16 hidden md:block">
           <Image
             className="h-auto max-w-full object-cover"
             src="/benedicte12.webp"
@@ -92,7 +92,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="w-2/5 max-md:w-full max-md:pb-16">
+        <div className="w-2/5 max-md:w-full max-md:pb-16 max-md:order-first">
           <Image
             alt="An artist smiling on stage while holding a microphone"
             src="/benedicte8.webp"
