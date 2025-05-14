@@ -43,8 +43,8 @@ export default function Home() {
         </div>
         <div className="w-3/5 max-md:w-full">
           <Image
-            alt="An artist sits on stage, holding a microphone"
-            src="/benedicte1.webp"
+            alt="A male artist in a white outfit singing into a microphone with one hand raised."
+            src="/benedicte13.webp"
             width="500"
             height="0"
           />
@@ -61,7 +61,7 @@ export default function Home() {
             festivals like Ultra Europe.
           </p>
           <div className="galleryimg pt-18">
-            <Image
+          <Image
               alt="An artist in an orange outfit standing on stage with raised hands"
               src="/benedicte9.webp"
               width="500"
@@ -81,19 +81,19 @@ export default function Home() {
             />
             <Image
               alt="An artist stands on stage, holding a microphone"
-              src="/benedicte6.webp"
+              src="/benedicte14.webp"
               width="500"
               height="0"
             />
             <Image
               alt="A woman dances on stage with a Ferris wheel glowing in the background"
-              src="/benedicte2.webp"
+              src="/benedicte7.webp"
               width="500"
               height="0"
             />
             <Image
               alt="A man in a white shirt holding his hands up, posing for a portrait"
-              src="/benedicte7.webp"
+              src="/benedicte4.webp"
               width="500"
               height="0"
             />
@@ -111,13 +111,25 @@ export default function Home() {
             />
             <Image
               alt="An artist sings into a microphone during a live performance"
-              src="/benedicte4.webp"
+              src="/benedicte2.webp"
               width="500"
               height="0"
             />
             <Image
               alt="An artist in a pink hoodie singing into a microphone, with the audience in the background"
               src="/benedicte11.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist sits on stage, holding a microphone"
+              src="/benedicte1.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist singing into a microphone with one foot resting on a speaker"
+              src="/benedicte6.webp"
               width="500"
               height="0"
             />
