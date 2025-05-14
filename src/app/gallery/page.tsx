@@ -29,50 +29,62 @@ export default function Home() {
           <h2>Gallery</h2>
           <div className="galleryimg pt-18">
             <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-2.webp"
+              alt="An artist in an orange outfit standing on stage with raised hands"
+              src="/benedicte-9.webp"
               width="500"
               height="0"
             />
             <Image
-              alt="Artist synger på en scene"
+              alt="A DJ raises his hands and looks out over the crowd, with a Ferris wheel behind him"
               src="/benedicte-3.webp"
               width="500"
               height="0"
             />
             <Image
-              alt="Artist synger på en scene"
+              alt=" A DJ performing behind a DJ deck, with the crowd visible in the background"
+              src="/benedicte-10.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist stands on stage, holding a microphone"
+              src="/benedicte-6.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="A woman dances on stage with a Ferris wheel glowing in the background"
+              src="/benedicte-2.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="A man in a white shirt holding his hands up, posing for a portrait"
+              src="/benedicte-7.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist smiling on stage while holding a microphone"
+              src="/benedicte-8.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="A DJ raises his hands, facing the crowd"
+              src="/benedicte-5.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist sings into a microphone during a live performance"
               src="/benedicte-4.webp"
               width="500"
               height="0"
             />
             <Image
-              alt="Artist synger på en scene"
+              alt="An artist in a pink hoodie singing into a microphone, with the audience in the background"
               src="/benedicte-11.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-15.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-17.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-23.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-38.webp"
               width="500"
               height="0"
             />
@@ -99,7 +111,7 @@ export default function Home() {
             {/* eslint-disable-next-line react/jsx-no-duplicate-props */}
             <a href="email" href="mailto:benedicte.aasb@gmail.com">
               <button className="text-white py-2 px-4 hover:bg-black my-5">
-              Send me a message
+                Send me a message
               </button>
             </a>
           </div>

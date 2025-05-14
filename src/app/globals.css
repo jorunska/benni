@@ -43,6 +43,9 @@ a {
   font-size: 20px;
 }
 
+img {
+  pointer-events: none;
+}
 
 .navbar {
   background: #161616;

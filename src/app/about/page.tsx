@@ -27,9 +27,9 @@ export default function Home() {
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
-            className="h-auto max-w-full rounded-lg object-cover"
-            src="/dagny-foto.jpg"
-            alt="Svane i sjøen"
+            className="h-auto max-w-full object-cover"
+            src="/benedicte-12.webp"
+            alt="A female artist singing into a microphone while playing the guitar"
             width="400"
             height="0"
           />
@@ -94,9 +94,8 @@ export default function Home() {
         </div>
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
-            className="h-auto max-w-full rounded-lg object-cover"
-            src="/dagny-foto.jpg"
-            alt="Svane i sjøen"
+            alt="An artist smiling on stage while holding a microphone"
+            src="/benedicte-8.webp"
             width="400"
             height="0"
           />
@@ -108,9 +107,8 @@ export default function Home() {
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
-            className="h-auto max-w-full object-cover"
-            src="/dagny-foto.jpg"
-            alt="Svane i sjøen"
+            alt="A man in a white shirt holding his hands up, posing for a portrait"
+            src="/benedicte-7.webp"
             width="400"
             height="0"
           />

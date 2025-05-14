@@ -43,8 +43,8 @@ export default function Home() {
         </div>
         <div className="w-3/5 max-md:w-full">
           <Image
-            alt="Artist synger på en scene"
-            src="/dagny-foto.jpg"
+            alt="An artist sits on stage, holding a microphone"
+            src="/benedicte-1.webp"
             width="500"
             height="0"
           />
@@ -62,50 +62,62 @@ export default function Home() {
           </p>
           <div className="galleryimg pt-18">
             <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-2.webp"
+              alt="An artist in an orange outfit standing on stage with raised hands"
+              src="/benedicte-9.webp"
               width="500"
               height="0"
             />
             <Image
-              alt="Artist synger på en scene"
+              alt="A DJ raises his hands and looks out over the crowd, with a Ferris wheel behind him"
               src="/benedicte-3.webp"
               width="500"
               height="0"
             />
             <Image
-              alt="Artist synger på en scene"
+              alt=" A DJ performing behind a DJ deck, with the crowd visible in the background"
+              src="/benedicte-10.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist stands on stage, holding a microphone"
+              src="/benedicte-6.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="A woman dances on stage with a Ferris wheel glowing in the background"
+              src="/benedicte-2.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="A man in a white shirt holding his hands up, posing for a portrait"
+              src="/benedicte-7.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist smiling on stage while holding a microphone"
+              src="/benedicte-8.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="A DJ raises his hands, facing the crowd"
+              src="/benedicte-5.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="An artist sings into a microphone during a live performance"
               src="/benedicte-4.webp"
               width="500"
               height="0"
             />
             <Image
-              alt="Artist synger på en scene"
+              alt="An artist in a pink hoodie singing into a microphone, with the audience in the background"
               src="/benedicte-11.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-15.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-17.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-23.webp"
-              width="500"
-              height="0"
-            />
-            <Image
-              alt="Artist synger på en scene"
-              src="/benedicte-38.webp"
               width="500"
               height="0"
             />
@@ -126,8 +138,8 @@ export default function Home() {
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
             className="h-auto max-w-full object-cover"
-            src="/benedicte-5.webp"
-            alt="Svane i sjøen"
+            src="/benedicte-12.webp"
+            alt="A female artist singing into a microphone while playing the guitar"
             width="400"
             height="0"
           />
@@ -136,22 +148,22 @@ export default function Home() {
         <div className="w-3/5 max-md:w-full max-md:pb-16 content-center">
           <h2>About me</h2>
           <div className="space-y-5">
-          <p>
-            I’m Benni — a 24-year-old photographer based in Oslo, Norway. I’m
-            self-taught, camera-obsessed, and fully driven by the love I have
-            for capturing real moments.
-          </p>
-          <p>
-            My passion lies in music photography — festivals, concerts, behind
-            the scenes, and everything in between.
-          </p>
-          <p>
-            I also take on a wide range of creative projects, from galleries and
-            restaurants to corporate events, fashion brands, and cultural
-            institutions.
-          </p>
+            <p>
+              I’m Benni — a 24-year-old photographer based in Oslo, Norway. I’m
+              self-taught, camera-obsessed, and fully driven by the love I have
+              for capturing real moments.
+            </p>
+            <p>
+              My passion lies in music photography — festivals, concerts, behind
+              the scenes, and everything in between.
+            </p>
+            <p>
+              I also take on a wide range of creative projects, from galleries
+              and restaurants to corporate events, fashion brands, and cultural
+              institutions.
+            </p>
           </div>
-          
+
           <div className="pt-6">
             <a href="/gallery">
               <button className="text-white py-2 px-4 hover:bg-black my-5">
@@ -181,7 +193,7 @@ export default function Home() {
             {/* eslint-disable-next-line react/jsx-no-duplicate-props */}
             <a href="email" href="mailto:benedicte.aasb@gmail.com">
               <button className="text-white py-2 px-4 hover:bg-black my-5">
-              Send me a message
+                Send me a message
               </button>
             </a>
           </div>
