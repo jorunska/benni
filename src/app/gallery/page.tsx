@@ -108,8 +108,7 @@ export default function Home() {
             make something amazing together!
           </p>
           <div className="pt-6">
-            {/* eslint-disable-next-line react/jsx-no-duplicate-props */}
-            <a href="email" href="mailto:benedicte.aasb@gmail.com">
+            <a href="mailto:benedicte.aasb@gmail.com">
               <button className="text-white py-2 px-4 hover:bg-black my-5">
                 Send me a message
               </button>
