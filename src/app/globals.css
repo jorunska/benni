@@ -43,6 +43,7 @@ a {
   font-size: 20px;
 }
 
+
 .navbar {
   background: #161616;
   border-bottom: 1px solid #363636;
@@ -66,6 +67,19 @@ footer a {
   border-bottom: 1px solid white;
 }
 
+.galleryimg {
+  margin-top: 2rem;
+  text-align: center;
+  columns: 3;
+  padding-top: 1.25rem;
+}
+
+.galleryimg img {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
 /* HOME PAGE - SMALLER SCREEN */
 @media only screen and (max-width: 800px) {
   h1 {
@@ -79,15 +93,19 @@ footer a {
     font-size: 20px;
   }
   p,
-  ul, a {
+  ul,
+  a {
     font-size: 18px;
   }
-  .grid, .grid img {
-    display: block;
-    padding: 2% 0;
+  .galleryimg {
+    columns: 1;
   }
 
- .logo {
+  .logo {
     padding-right: 8% !important;
+  }
+
+  .about img {
+    display: none;
   }
 }

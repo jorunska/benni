@@ -25,100 +25,98 @@ export default function Home() {
       {/* --------------- NEW SECTION ------------- */}
       {/* Gallery */}
       <div>
-        <div className="max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
-          <h1>Gallery</h1>
-          <p>More information about type of projects</p>
-          <div className="grid grid-cols-3 gap-4 md:grid-cols-3 pt-18">
-            <div className="grid gap-4">
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
-                  src="/dagny-foto.jpg"
-                  alt="To naust som ligger ved vannkanten, med fjell i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
-                  src="/dagny-foto.jpg"
-                  alt="Bålpanne med fjell i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-            </div>
-            <div className="grid gap-4">
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
-                  src="/dagny-foto.jpg"
-                  alt="Svane i sjøen"
-                  width="500"
-                  height="0"
-                />
-              </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
-                  src="/dagny-foto.jpg"
-                  alt="Blomst med fjell og sjø i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-            </div>
-            <div className="grid gap-4">
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
-                  src="/dagny-foto.jpg"
-                  alt="Svane i sjøen"
-                  width="500"
-                  height="0"
-                />
-              </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg object-cover"
-                  src="/dagny-foto.jpg"
-                  alt="Blomst med fjell og sjø i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-            </div>
+        <div className="max-lg:px-8 lg:px-20 2xl:px-36 mt-26 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+          <h2>Gallery</h2>
+          <div className="galleryimg pt-18">
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-2.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-3.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-4.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-11.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-15.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-17.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-23.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-38.webp"
+              width="500"
+              height="0"
+            />
           </div>
         </div>
       </div>
 
- {/* -------------- NEW SECTION ---------------- */}
-{/* Contact */}
-<div id="contact" className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+      {/* -------------- NEW SECTION ---------------- */}
+      {/* Contact */}
+      <div
+        id="contact"
+        className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32"
+      >
         <div className="w-3/5 max-md:w-full max-md:pb-16">
           <h2>Want to work together?</h2>
         </div>
 
         <div className="w-3/5 max-md:w-full max-md:pb-16">
-          <p>Got an interesting project you want together on? Contact me to discuss</p>
-          <div className="pt-8 font-bold"><a className="email" href="mailto">benni@contact.no</a></div>
+          <p>
+            Got a project or idea in mind? I’d love to hear from you — let’s
+            make something amazing together!
+          </p>
+          <div className="pt-6">
+            {/* eslint-disable-next-line react/jsx-no-duplicate-props */}
+            <a href="email" href="mailto:benedicte.aasb@gmail.com">
+              <button className="text-white py-2 px-4 hover:bg-black my-5">
+              Send me a message
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 
-
-{/* ----------FOOTER-------------- */}
+      {/* ----------FOOTER-------------- */}
       <footer className="footer flex max-md:flex-col py-18 max-lg:px-8 lg:px-20 2xl:px-36 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32 mt-32 bg-black ">
         <div className="w-3/5">
           <h2>Benni.</h2>
-          <p>I am a photographer</p>
         </div>
         <div className="w-2/5 content-center">
-          <a>benni@contact.no</a>
+          <a href="mailto:benedicte.aasb@gmail.com">Send me a message</a>
         </div>
         <div className="w-2/5 content-center">
-        <a>Instagram</a></div>
-
+          <a href="https://www.instagram.com/beneedictee/">Instagram</a>
+        </div>
       </footer>
     </main>
   );

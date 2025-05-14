@@ -28,7 +28,10 @@ export default function Home() {
         <div className="w-3/5 max-md:w-full max-md:pb-16">
           <h1>Hi, I&apos;m Benni.</h1>
           <p className="text-2xl max-md:text-xl leading-normal my-5 lg:pr-25">
-            I am a photographer.
+            I’m a photographer & videographer. Self-taught & driven by passion.
+          </p>
+          <p className="italic my-5">
+            Still learning. Still building. But always shooting.
           </p>
           <div>
             <a href="#contact">
@@ -53,67 +56,59 @@ export default function Home() {
       <div>
         <div className="max-lg:px-8 lg:px-20 2xl:px-36 mt-26 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
           <h2>Gallery</h2>
-          <div className="grid grid-cols-3 md:grid-cols-3 gap-2 pt-18">
-            <div className="grid gap-2">
-              <div>
-                <Image
-                  className="h-auto max-w-full object-cover object-center"
-                  src="/benedicte-2.webp"
-                  alt="To naust som ligger ved vannkanten, med fjell i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full object-cover object-center"
-                  src="/benedicte-11.webp"
-                  alt="Bålpanne med fjell i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-            </div>
-            <div className="grid gap-2">
-              <div>
-                <Image
-                  className="h-auto max-w-full object-cover object-center"
-                  src="/benedicte-23.webp"
-                  alt="Svane i sjøen"
-                  width="500"
-                  height="0"
-                />
-              </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full object-cover object-center"
-                  src="/benedicte-41.webp"
-                  alt="Blomst med fjell og sjø i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-            </div>
-            <div className="grid gap-2">
-              <div>
-                <Image
-                  className="h-auto max-w-full object-cover object-center"
-                  src="/benedicte-17.webp"
-                  alt="Svane i sjøen"
-                  width="500"
-                  height="0"
-                />
-              </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full object-cover object-center"
-                  src="/benedicte-4.webp"
-                  alt="Blomst med fjell og sjø i bakgrunn"
-                  width="500"
-                  height="0"
-                />
-              </div>
-            </div>
+          <p>
+            I’ve worked with artists like R3HAB and KSHMR, and shot at major
+            festivals like Ultra Europe.
+          </p>
+          <div className="galleryimg pt-18">
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-2.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-3.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-4.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-11.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-15.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-17.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-23.webp"
+              width="500"
+              height="0"
+            />
+            <Image
+              alt="Artist synger på en scene"
+              src="/benedicte-38.webp"
+              width="500"
+              height="0"
+            />
           </div>
         </div>
         <div className="text-center pt-12">
@@ -127,7 +122,7 @@ export default function Home() {
 
       {/* ------------- NEW SECTION ----------- */}
       {/* ABOUT */}
-      <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
+      <div className="about flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-32 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-10">
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
             className="h-auto max-w-full object-cover"
@@ -140,15 +135,23 @@ export default function Home() {
 
         <div className="w-3/5 max-md:w-full max-md:pb-16 content-center">
           <h2>About me</h2>
-          <p className="pb-3">
-            Our passion for photography drives our commitment to capturing
-            life&apos;s most precious moments with unrivaled expertise and
-            attention to detail.
+          <div className="space-y-5">
+          <p>
+            I’m Benni — a 24-year-old photographer based in Oslo, Norway. I’m
+            self-taught, camera-obsessed, and fully driven by the love I have
+            for capturing real moments.
           </p>
           <p>
-            We blend art and technology to provide our clients with
-            unforgettable images that tell their unique stories.
+            My passion lies in music photography — festivals, concerts, behind
+            the scenes, and everything in between.
           </p>
+          <p>
+            I also take on a wide range of creative projects, from galleries and
+            restaurants to corporate events, fashion brands, and cultural
+            institutions.
+          </p>
+          </div>
+          
           <div className="pt-6">
             <a href="/gallery">
               <button className="text-white py-2 px-4 hover:bg-black my-5">
@@ -159,33 +162,43 @@ export default function Home() {
         </div>
       </div>
 
-
-{/* -------------- NEW SECTION ---------------- */}
-{/* Contact */}
-      <div id="contact" className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32">
-        <div className="w-3/5 max-md:w-full max-md:pb-16">
+      {/* -------------- NEW SECTION ---------------- */}
+      {/* Contact */}
+      <div
+        id="contact"
+        className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-10"
+      >
+        <div className="w-3/5 max-md:w-full max-md:pb-10">
           <h2>Want to work together?</h2>
         </div>
 
-        <div className="w-3/5 max-md:w-full max-md:pb-16">
-          <p>Got an interesting project you want together on? Contact me to discuss</p>
-          <div className="pt-8 font-bold"><a className="email" href="mailto">benni@contact.no</a></div>
+        <div className="w-3/5 max-md:w-full max-md:pb-5">
+          <p>
+            Got a project or idea in mind? I’d love to hear from you — let’s
+            make something amazing together!
+          </p>
+          <div className="pt-6">
+            {/* eslint-disable-next-line react/jsx-no-duplicate-props */}
+            <a href="email" href="mailto:benedicte.aasb@gmail.com">
+              <button className="text-white py-2 px-4 hover:bg-black my-5">
+              Send me a message
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 
-
-{/* -----------FOOTER------------ */}
+      {/* -----------FOOTER------------ */}
       <footer className="footer flex max-md:flex-col py-18 max-lg:px-8 lg:px-20 2xl:px-36 md:space-x-20 lg:space-x-40 xl:space-x-32 max-md:mt-32 mt-32 bg-black ">
         <div className="w-3/5">
           <h2>Benni.</h2>
-          <p>I am a photographer</p>
         </div>
         <div className="w-2/5 content-center">
-          <a>benni@contact.no</a>
+          <a href="mailto:benedicte.aasb@gmail.com">Send me a message</a>
         </div>
         <div className="w-2/5 content-center">
-        <a>Instagram</a></div>
-
+          <a href="https://www.instagram.com/beneedictee/">Instagram</a>
+        </div>
       </footer>
     </main>
   );
