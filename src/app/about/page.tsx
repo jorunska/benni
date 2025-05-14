@@ -28,7 +28,7 @@ export default function Home() {
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
             className="h-auto max-w-full object-cover"
-            src="/benedicte-12.webp"
+            src="/benedicte12.webp"
             alt="A female artist singing into a microphone while playing the guitar"
             width="400"
             height="0"
@@ -95,7 +95,7 @@ export default function Home() {
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
             alt="An artist smiling on stage while holding a microphone"
-            src="/benedicte-8.webp"
+            src="/benedicte8.webp"
             width="400"
             height="0"
           />
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
             alt="A man in a white shirt holding his hands up, posing for a portrait"
-            src="/benedicte-7.webp"
+            src="/benedicte7.webp"
             width="400"
             height="0"
           />

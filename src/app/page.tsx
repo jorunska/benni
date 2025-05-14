@@ -44,7 +44,7 @@ export default function Home() {
         <div className="w-3/5 max-md:w-full">
           <Image
             alt="An artist sits on stage, holding a microphone"
-            src="/benedicte-1.webp"
+            src="/benedicte1.webp"
             width="500"
             height="0"
           />
@@ -63,61 +63,61 @@ export default function Home() {
           <div className="galleryimg pt-18">
             <Image
               alt="An artist in an orange outfit standing on stage with raised hands"
-              src="/benedicte-9.webp"
+              src="/benedicte9.webp"
               width="500"
               height="0"
             />
             <Image
               alt="A DJ raises his hands and looks out over the crowd, with a Ferris wheel behind him"
-              src="/benedicte-3.webp"
+              src="/benedicte3.webp"
               width="500"
               height="0"
             />
             <Image
               alt=" A DJ performing behind a DJ deck, with the crowd visible in the background"
-              src="/benedicte-10.webp"
+              src="/benedicte10.webp"
               width="500"
               height="0"
             />
             <Image
               alt="An artist stands on stage, holding a microphone"
-              src="/benedicte-6.webp"
+              src="/benedicte6.webp"
               width="500"
               height="0"
             />
             <Image
               alt="A woman dances on stage with a Ferris wheel glowing in the background"
-              src="/benedicte-2.webp"
+              src="/benedicte2.webp"
               width="500"
               height="0"
             />
             <Image
               alt="A man in a white shirt holding his hands up, posing for a portrait"
-              src="/benedicte-7.webp"
+              src="/benedicte7.webp"
               width="500"
               height="0"
             />
             <Image
               alt="An artist smiling on stage while holding a microphone"
-              src="/benedicte-8.webp"
+              src="/benedicte8.webp"
               width="500"
               height="0"
             />
             <Image
               alt="A DJ raises his hands, facing the crowd"
-              src="/benedicte-5.webp"
+              src="/benedicte5.webp"
               width="500"
               height="0"
             />
             <Image
               alt="An artist sings into a microphone during a live performance"
-              src="/benedicte-4.webp"
+              src="/benedicte4.webp"
               width="500"
               height="0"
             />
             <Image
               alt="An artist in a pink hoodie singing into a microphone, with the audience in the background"
-              src="/benedicte-11.webp"
+              src="/benedicte11.webp"
               width="500"
               height="0"
             />
@@ -138,7 +138,7 @@ export default function Home() {
         <div className="w-2/5 max-md:w-full max-md:pb-16">
           <Image
             className="h-auto max-w-full object-cover"
-            src="/benedicte-12.webp"
+            src="/benedicte12.webp"
             alt="A female artist singing into a microphone while playing the guitar"
             width="400"
             height="0"
